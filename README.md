@@ -1,6 +1,6 @@
-# Glue42 Server, Metrics Server and Notification Server Documentation
+# Glue42 Server, Metrics Servers and Notification Server Documentation
 
-This repository contains the source files for the **Glue42 Server**, **Metrics Server** and **Notification Server** official products.
+This repository contains the source files for the **Glue42 Server**, **Metrics Servers** and **Notification Server** official products.
 
 ## Contributing
 
