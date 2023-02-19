@@ -1,0 +1,27 @@
+{
+  "name": "tick42-glue-server-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-docs-new-structure": "glue-js-documentation-builder build-with-new-structure -p server -s ./docs -d ./dist -m servers"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://stash.tick42.com/scm/tgd/tick42-glue-docs.git"
+  },
+  "author": "Tick42",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^2.0.0",
+    "glue-js-documentation-builder": "^3.22.1",
+    "shelljs": "^0.7.8",
+    "tick42-glue-desktop-schemas": "^0.55.0",
+    "tick42-glue-docs-generator": "*"
+  },
+  "devDependencies": {
+    "@glue42/desktop": "^4.8.1",
+    "callback-registry": "^2.5.2",
+    "watch": "^1.0.2"
+  }
+}
